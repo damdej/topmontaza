@@ -23,7 +23,7 @@
   /* 5rem = 8px | 1rem = 16px */
   --body-font: "Montserrat", sans-serif;
   --big-font-size: 2.25rem;
-   --medium-font-size: 1.5rem;
+  --medium-font-size: 1.5rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -44,7 +44,7 @@
   @media screen and (min-width: 1150px) {
     :root {
       --big-font-size: 3.5rem;
-     --h1-font-size: 2.25rem;
+      --h1-font-size: 2.25rem;
       --h2-font-size: 1.5rem;
       --h3-font-size: 1.25rem;
       --normal-font-size: 1rem;
@@ -170,13 +170,13 @@
     color: var(--first-color);
     font-size: 1.5rem;
   }
- .phone{
-  background-color:hsl(120, 60%, 40%);
-  /* display: block; */
-  border-radius: 20px;
-  padding: 0.5rem 1rem;
- }
-  
+  .phone {
+    background-color: hsl(120, 60%, 40%);
+    /* display: block; */
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+  }
+
   .nav__toggle,
   .nav__close {
     display: flex;
@@ -185,7 +185,6 @@
     cursor: pointer;
     transition: color 0.4s;
   }
-
 
   /* Navigation for mobile device  */
   @media screen and (max-width: 1150px) {
@@ -224,14 +223,13 @@
     right: 1.5rem;
   }
 
-
-  .phone span{
+  .phone span {
     font-size: var(--small-font-size);
     font-weight: var(--font-semi-bold);
-    color: var(--white-color)
+    color: var(--white-color);
   }
-   .phone i{
-    font-size:var(--small-font-size);
+  .phone i {
+    font-size: var(--small-font-size);
     color: var(--white-color);
   }
 
@@ -309,7 +307,6 @@
   }
   .pocetna__img-1 {
     width: 400px;
-   
   }
   /* .pocetna__img-2 {
     width: 150px;
@@ -364,7 +361,6 @@
     transform: translateX(0.25rem);
   }
 
- 
   /* =================== USLUGE  ===================== */
   .servis {
     position: relative;
@@ -451,7 +447,7 @@
   }
 
   .projekti .section__title {
-    color:var(--black-color);
+    color: var(--black-color);
   }
 
   .projekti__container {
@@ -490,7 +486,7 @@
     padding-block: 1.5rem 3rem;
   }
 
-  .contact__img{
+  .contact__img {
     width: 350px;
     justify-content: center;
   }
@@ -550,7 +546,7 @@
   .contact__social-link:hover {
     transform: translateY(-0.25rem);
   }
-  .svg{
+  .svg {
     display: block;
     fill: blueviolet;
   }
@@ -559,7 +555,7 @@
   .footer {
     background-color: var(--black-color);
     color: var(--text-color-light);
-    padding-block:3.5rem 2rem;
+    padding-block: 3.5rem 2rem;
   }
 
   .footer__container {
@@ -636,13 +632,11 @@
   }
 
   .footer__copy {
-    display:block;
+    display: block;
     text-align: left;
     font-size: var(--small-font-size);
     margin-top: 1rem;
-    
   }
-  
 
   /* ===================== CALLBACK BUTTON================== */
   .callback__button {
@@ -650,20 +644,20 @@
     position: fixed;
     background-color: hsl(120, 60%, 40%);
     height: 4rem;
-   
+
     text-align: center;
-   
+
     width: 100%;
-    left: 0; 
-     right: 0;
+    left: 0;
+    right: 0;
     bottom: 0;
     z-index: 10;
   }
-  
+
   .callback__logo {
     color: var(--white-color);
     font-size: 2.5rem;
-  
+
     margin: auto;
   }
   .callback__button span {
@@ -708,194 +702,188 @@
     bottom: 4rem;
   }
   /* ===================== BREAKPOINTS ====================== */
- 
+
   /*  For small devices */
-   @media  screen and (max-width:340px) {
-    .container{
-      margin-inline:1rem ;
+  @media screen and (max-width: 340px) {
+    .container {
+      margin-inline: 1rem;
     }
 
-    .section__title{
+    .section__title {
       font-size: 1.25rem;
     }
 
-
-    .pocetna__title{
+    .pocetna__title {
       font-size: 1.75rem;
     }
 
-    .pocetna__buttons{
+    .pocetna__buttons {
       flex-direction: column;
     }
 
-    .pocetna__img-1{
+    .pocetna__img-1 {
       width: 200px;
       margin-left: 1.5rem;
     }
-   
 
-    .footer__content{
+    .footer__content {
       grid-template-columns: repeat(2, max-content);
     }
-
-  } 
-
+  }
 
   /*  For medium devices */
-  @media  screen and (min-width:540px) {
+  @media screen and (min-width: 540px) {
     .pocetna__container,
     .onama__container,
     .servis__container,
     .projekti__container,
-    .contact__container{
+    .contact__container {
       grid-template-columns: 360px;
       justify-content: center;
     }
 
-    .footer__content{
-      grid-template-columns: repeat(3,max-content);
+    .footer__content {
+      grid-template-columns: repeat(3, max-content);
     }
   }
 
-  @media screen and (min-width:768px) {
-    .nav__menu{
+  @media screen and (min-width: 768px) {
+    .nav__menu {
       width: 50%;
     }
-    .phone span{
-    font-size: var(--medium-font-size);
-    font-weight: var(--font-semi-bold);
-    color: var(--white-color)
-  }
-   .phone i{
-    font-size:var(--medium-font-size);
-    color: var(--white-color);
-  }
-    
-    .projekti__container{
+    .phone span {
+      font-size: var(--medium-font-size);
+      font-weight: var(--font-semi-bold);
+      color: var(--white-color);
+    }
+    .phone i {
+      font-size: var(--medium-font-size);
+      color: var(--white-color);
+    }
+
+    .projekti__container {
       grid-template-columns: repeat(2, 330px);
     }
 
-    .contact__data{
-      grid-template-columns: repeat(2,240px);
+    .contact__data {
+      grid-template-columns: repeat(2, 240px);
     }
 
-    .footer__container{
-      grid-template-columns: repeat(2,max-content);
+    .footer__container {
+      grid-template-columns: repeat(2, max-content);
       justify-content: space-between;
     }
   }
 
   /* For large devices */
   @media screen and (min-width: 1150px) {
-    .container{
+    .container {
       margin-inline: auto;
     }
 
-    .section{
-      padding-block: 7rem 2rem ;
+    .section {
+      padding-block: 7rem 2rem;
     }
 
-    .nav{
+    .nav {
       height: calc(var(--header-height) + 2rem);
     }
 
     .nav__toggle,
-    .nav__close{
+    .nav__close {
       display: none;
     }
 
-    .nav__menu{
+    .nav__menu {
       width: initial;
     }
-    .phone span{
-    font-size: var(--medium-font-size);
-    font-weight: var(--font-semi-bold);
-    color: var(--white-color)
-  }
-   .phone i{
-    font-size:var(--medium-font-size);
-    color: var(--white-color);
-  }
+    .phone span {
+      font-size: var(--medium-font-size);
+      font-weight: var(--font-semi-bold);
+      color: var(--white-color);
+    }
+    .phone i {
+      font-size: var(--medium-font-size);
+      color: var(--white-color);
+    }
 
-    .nav__list{
+    .nav__list {
       flex-direction: row;
       align-items: center;
       column-gap: 4rem;
     }
 
-    .bg-header .nav__link{
+    .bg-header .nav__link {
       color: var(--text-color);
     }
 
     .bg-header .active-link,
-    .bg-header .nav__link:hover{
+    .bg-header .nav__link:hover {
       color: var(--first-color);
     }
 
     .bg-header .button,
-    .bg-header .button:hover{
+    .bg-header .button:hover {
       background: var(--first-color);
       color: var(--white-color);
     }
-    
-    .pocetna__container{
+
+    .pocetna__container {
       grid-template-columns: 475px 550px;
       column-gap: 6rem;
       align-items: flex-start;
       padding-top: 5.5rem;
     }
 
-    .pocetna__content{
+    .pocetna__content {
       row-gap: 4.5rem;
     }
 
-    .pocetna__data{
+    .pocetna__data {
       text-align: initial;
     }
 
-    .pocetna__description{
+    .pocetna__description {
       margin-bottom: 3rem;
     }
 
-    .pocetna__buttons{
+    .pocetna__buttons {
       justify-content: initial;
       column-gap: 3rem;
     }
 
-    .pocetna__info{
+    .pocetna__info {
       justify-content: initial;
       column-gap: 5.5rem;
     }
 
-    .pocetna__info-description{
+    .pocetna__info-description {
       font-size: var(--normal-font-size);
     }
 
-    .pocetna__img-1{
+    .pocetna__img-1 {
       width: 550px;
       margin-left: 0;
     }
 
-    .pocetna__img-2{
+    .pocetna__img-2 {
       width: 350px;
       border-width: 10px;
       left: -7rem;
       bottom: -8rem;
     }
 
-    .pocetna__lines{
+    .pocetna__lines {
       object-position: center;
     }
 
-    
-
-    .servis__container{
+    .servis__container {
       grid-template-columns: initial;
       row-gap: 5rem;
       padding-bottom: 4.5rem;
     }
 
-    .servis__data{
+    .servis__data {
       display: block;
       /* grid-template-columns: 415px 370px max-content; */
       justify-content: center;
@@ -903,61 +891,60 @@
     }
 
     .servis__data :is(.section__title, .section__subtitle),
-    .servis__description{
+    .servis__description {
       text-align: center;
     }
 
-    .servis__data .section__title{
+    .servis__data .section__title {
       margin-bottom: 2rem;
     }
 
-    .servis__data .button{
+    .servis__data .button {
       width: max-content;
-     
     }
-    .servis__data .button:hover{
+    .servis__data .button:hover {
       background-color: var(--second-color);
       color: var(--white-color);
     }
 
-    .servis__swiper{
+    .servis__swiper {
       max-width: 1100px;
     }
 
-    .servis__card{
+    .servis__card {
       width: 348px;
       border-width: 3px;
       padding: 3.5rem 2rem 6rem;
     }
 
-    .servis__shape{
+    .servis__shape {
       height: 330px;
     }
 
     .swiper-button-next,
-    .swiper-button-prev{
+    .swiper-button-prev {
       bottom: 3rem;
     }
 
-    .projekti__container{
-      grid-template-columns: repeat(3,350px);
+    .projekti__container {
+      grid-template-columns: repeat(3, 350px);
       column-gap: 2rem;
       padding-block: 5rem 4rem;
     }
 
-    .projekti__card{
+    .projekti__card {
       border-width: 3px;
     }
 
-    .projekt__date{
-      padding: 2rem 1.5rem .5rem;
+    .projekt__date {
+      padding: 2rem 1.5rem 0.5rem;
     }
 
-    .contact :is(.section__title, .section__subtitle){
+    .contact :is(.section__title, .section__subtitle) {
       text-align: center;
     }
 
-    .contact__container{
+    .contact__container {
       grid-template-columns: 530px 515px;
       justify-content: initial;
       align-items: flex-start;
@@ -965,61 +952,60 @@
       padding-block: 3.5rem 4rem;
     }
 
-
-    .contact__img{
+    .contact__img {
       width: 530px;
     }
-    .contact__data{
+    .contact__data {
       gap: 2rem;
     }
 
-    .contact__card{
+    .contact__card {
       border-width: 3px;
     }
 
-    .contact__title{
+    .contact__title {
       font-size: var(--small-font-size);
     }
 
-    .footer{
+    .footer {
       padding-block: 4.5rem 3rem;
     }
 
-    .footer__container{
+    .footer__container {
       padding-bottom: 6rem;
     }
 
-    .footer__content{
+    .footer__content {
       column-gap: 7rem;
     }
 
-    .footer__description{
+    .footer__description {
       margin-block: 1.5rem;
     }
 
-    .footer__title{
+    .footer__title {
       margin-top: 1.5rem;
     }
 
     .footer__links,
-    .footer__list{
+    .footer__list {
       row-gap: 1rem;
     }
-    .copy__span{
-    color: var(--first-color);
-    font-weight: var(--font-bold);
-  }
+    .copy__span {
+      color: var(--first-color);
+      font-weight: var(--font-bold);
+    }
 
-    .scrollup{
+    .scrollup {
       right: 3rem;
     }
-    .callback__button{
-    display: flex;
-    text-align: center;
-    border-radius: 50px;
-    width: 400px;
-    height: 5rem;
-    margin: auto;
+    .callback__button {
+      display: flex;
+      text-align: center;
+      border-radius: 50px;
+      width: 400px;
+      height: 5rem;
+      margin: auto;
     }
-
   }
+}
