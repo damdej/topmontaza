@@ -978,7 +978,7 @@
     }
 
     .contact__title{
-      font-size: var(--h3-font-size);
+      font-size: var(--small-font-size);
     }
 
     .footer{
