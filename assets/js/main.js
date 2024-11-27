@@ -99,3 +99,9 @@ sr.reveal('.onama__images, .contact__img', { origin: 'left' })
 sr.reveal('.onama__data, .contact__data', { origin: 'right' })
 sr.reveal('.projekti__card', { interval: 100 })
 
+
+/*========================= VIBER BUTTON ============================*/
+var buttonID = "viber_share";
+var text = "Posaljite poruku ";
+document.getElementById(buttonID)
+    .setAttribute('href', "viber://forward?text=Posaljite poruku" + encodeURIComponent(text + " " + window.location.href));

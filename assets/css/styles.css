@@ -966,6 +966,9 @@
     .contact__title {
       font-size: var(--small-font-size);
     }
+    .contact__social img {
+      width: 50px;
+    }
 
     .footer {
       padding-block: 4.5rem 3rem;
