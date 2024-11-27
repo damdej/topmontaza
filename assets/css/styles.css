@@ -547,7 +547,7 @@
     transform: translateY(-0.25rem);
   }
   .contact__social img {
-    width: 50px;
+    max-width: 20px;
   }
   .svg {
     display: block;
