@@ -546,6 +546,9 @@
   .contact__social-link:hover {
     transform: translateY(-0.25rem);
   }
+  .contact__social img {
+    width: 50px;
+  }
   .svg {
     display: block;
     fill: blueviolet;
