@@ -75,7 +75,29 @@
   },
   {
    "naziv": "Montaža",
-   "slike": []
+   "slike": [
+    {
+     "slika": "/slike/montaza-beograd-20261003200827-1.jpg"
+    },
+    {
+     "slika": "/slike/montaza-beograd-20261003200827-2.jpg"
+    },
+    {
+     "slika": "/slike/montaza-beograd-20261003200827-3.jpg"
+    },
+    {
+     "slika": "/slike/montaza-beograd-20261003200827-4.jpg"
+    },
+    {
+     "slika": "/slike/montaza-beograd-20261003200827-5.jpg"
+    },
+    {
+     "slika": "/slike/montaza-beograd-20261003200827-6.jpg"
+    },
+    {
+     "slika": "/slike/montaza-beograd-20261003200827-7.jpg"
+    }
+   ]
   },
   {
    "naziv": "Ostalo",
