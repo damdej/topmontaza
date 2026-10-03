@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: VASE-GITHUB-IME/topmontaza   # zameni VASE-GITHUB-IME svojim GitHub korisničkim imenom
+  repo: damdej/topmontaza  
   branch: main
 
 media_folder: slike
