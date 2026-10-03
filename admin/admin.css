@@ -1,0 +1,60 @@
+:root{
+  --bg:rgb(7, 7, 7); --panel:#181818; --line:#2a2a2a; --text:#f4f2ee; --muted:#b3aea6;
+  --accent:#ff6a13; --accent-ink:#111; --danger:#ff5a4d;
+  --display:"Barlow Condensed","Arial Narrow",Impact,sans-serif;
+  --body:"Barlow",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+}
+*,*::before,*::after{box-sizing:inherit}
+[hidden]{display:none!important}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--body);font-size:18px;line-height:1.5;padding-bottom:calc(40px + env(safe-area-inset-bottom,0px))}
+.wrap{max-width:760px;margin:0 auto;padding:0 18px}
+h1,h2{font-family:var(--display);line-height:1;margin:0;letter-spacing:.005em}
+h1{font-size:clamp(40px,9vw,60px);font-weight:800;margin-bottom:20px}
+h2{font-size:26px;font-weight:700;color:var(--muted);margin:30px 0 14px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+
+header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 0 22px}
+.logo img{display:block;height:64px;width:auto;border-radius:6px}
+
+button,.pick{font:600 18px var(--body);border-radius:8px;padding:14px 18px;cursor:pointer;min-height:52px}
+button:disabled{opacity:.5;cursor:default}
+.primary{display:block;width:100%;text-align:center;background:var(--accent);color:var(--accent-ink);border:0;font-family:var(--display);font-weight:800;font-size:26px;line-height:1.1}
+.ghost{background:var(--panel);color:var(--text);border:1.5px solid var(--line)}
+.ghost:hover{border-color:var(--accent)}
+
+/* login */
+#login{max-width:420px;margin:8vh auto 0}
+label{display:block;font-weight:600;margin-bottom:8px}
+input[type=password],input[type=text]{width:100%;font:500 18px var(--body);color:var(--text);background:var(--panel);border:1.5px solid var(--line);border-radius:8px;padding:14px;min-height:52px}
+#login button{margin-top:16px}
+
+.msg{min-height:1.5em;margin:14px 0 0;color:var(--muted)}
+.msg.err{color:var(--danger)}
+.msg.ok{color:#6fd48a}
+
+/* kategorije */
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.tabs button{font-size:16px;min-height:44px;color:var(--text);background:var(--panel);border:1.5px solid var(--line);border-radius:999px;padding:9px 16px}
+.tabs button[aria-selected=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+
+/* slike koje čekaju slanje */
+.queue{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:10px}
+.queue li{display:grid;grid-template-columns:72px 1fr;gap:12px;align-items:center;background:var(--panel);border:1.5px solid var(--line);border-radius:8px;padding:8px}
+.queue img{width:72px;height:72px;object-fit:cover;border-radius:6px;display:block}
+.queue input{min-height:44px;padding:10px}
+.queue small{display:block;color:var(--muted);font-size:14px;margin-top:4px}
+.queue li.done{border-color:#6fd48a}
+.queue li.fail{border-color:var(--danger)}
+.row{display:grid;grid-template-columns:2fr 1fr;gap:10px;margin-top:14px}
+
+/* postojeće slike */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
+.grid figure{position:relative;margin:0;aspect-ratio:1;background:var(--panel);border-radius:8px;overflow:hidden;border:1.5px solid var(--line)}
+.grid img{width:100%;height:100%;object-fit:cover;display:block}
+.grid figure.pending::after{content:"Objavljuje se…";position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-size:15px;text-align:center;padding:8px}
+.grid figure.pending img{visibility:hidden}
+.grid button{position:absolute;top:6px;right:6px;z-index:1;min-height:0;width:40px;height:40px;padding:0;border-radius:50%;border:0;background:rgba(7,7,7,.8);color:#fff;font-size:24px;line-height:1}
+.grid button:hover{background:var(--danger)}
+.empty{color:var(--muted);margin:0}

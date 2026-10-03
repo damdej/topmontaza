@@ -1,3 +1,52 @@
-<!doctype html>
-<html lang="sr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>Admin | Top Montaža</title></head>
-<body><script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="sr-Latn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Admin | Top Montaža</title>
+<meta name="theme-color" content="rgb(7, 7, 7)">
+<link rel="icon" href="/favicon.png" sizes="48x48">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/admin/admin.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="/"><img src="/logo.png" width="572" height="253" alt="Top Montaža"></a>
+    <button id="logout" class="ghost" type="button" hidden>Odjavi se</button>
+  </header>
+
+  <form id="login" hidden>
+    <h1>Admin</h1>
+    <label for="password">Lozinka</label>
+    <input id="password" type="password" autocomplete="current-password" required>
+    <button class="primary" type="submit">Prijavi se</button>
+    <p class="msg" id="login-msg" role="alert"></p>
+  </form>
+
+  <main id="panel" hidden>
+    <h1>Slike radova</h1>
+    <div class="tabs" id="tabs" role="tablist"></div>
+
+    <label class="pick primary" for="files">Dodaj slike</label>
+    <input id="files" type="file" accept="image/*" multiple hidden>
+
+    <div id="queue-box" hidden>
+      <ul class="queue" id="queue"></ul>
+      <div class="row">
+        <button id="send" class="primary" type="button">Pošalji</button>
+        <button id="cancel" class="ghost" type="button">Odustani</button>
+      </div>
+    </div>
+    <p class="msg" id="msg" role="status"></p>
+
+    <h2 id="count"></h2>
+    <div class="grid" id="grid"></div>
+  </main>
+</div>
+<script src="/admin/admin.js" defer></script>
+</body>
+</html>
