@@ -1,5 +1,5 @@
 (function(){
-var API='/.netlify/functions/admin',KEY='tm_admin',MAX=1600,QUALITY=.82;
+var API='/api/admin',KEY='tm_admin',MAX=1600,QUALITY=.82;
 var $=function(id){return document.getElementById(id)};
 var login=$('login'),panel=$('panel'),tabs=$('tabs'),grid=$('grid'),queueBox=$('queue-box'),queueEl=$('queue'),msg=$('msg'),files=$('files');
 var cats=[],current=0,queue=[],busy=false;
@@ -41,14 +41,13 @@ function render(){
   $('count').textContent=c.naziv+', broj slika: '+S.length;
   grid.innerHTML=S.length?S.map(function(x){
     var u=x.slika.charAt(0)==='/'?x.slika:'/'+x.slika;
-    return '<figure><img src="/.netlify/images?url='+encodeURI(u)+'&w=400" data-src="'+esc(encodeURI(u))+'" alt="'+esc(x.opis||'')+'" loading="lazy"><button type="button" data-del="'+esc(x.slika)+'" aria-label="Obriši sliku">&times;</button></figure>';
+    return '<figure><img src="'+esc(encodeURI(u))+'" alt="'+esc(x.opis||'')+'" loading="lazy" decoding="async"><button type="button" data-del="'+esc(x.slika)+'" aria-label="Obriši sliku">&times;</button></figure>';
   }).join(''):'<p class="empty">Još nema slika u ovoj kategoriji.</p>';
 }
 
-// tek poslata slika postoji na sajtu tek kad Netlify završi objavu
+// tek poslata slika postoji na sajtu tek kad Cloudflare Pages završi objavu
 grid.addEventListener('error',function(e){
   var i=e.target;if(i.tagName!=='IMG')return;
-  if(i.dataset.src&&i.getAttribute('src')!==i.dataset.src){i.src=i.dataset.src;return}
   i.parentNode.classList.add('pending');
 },true);
 

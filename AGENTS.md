@@ -4,8 +4,9 @@ Sajt firme za montažu nameštaja u Beogradu (kuhinje po meri, plakari po meri, 
 
 ## Gde živi
 
-- Repo: `github.com/damdej/topmontaza`, grana `main`. Push na `main` odmah objavljuje sajt (Netlify).
-- Hosting: Netlify, `topmontaza.netlify.app`. Domen `topmontaza.rs` je kupljen kod Web Hosting Srbija, a nameserveri su prebačeni na Netlify DNS (`dns1-4.p09.nsone.net`). DNS zapisima se upravlja u Netlify-u, ne kod registra.
+- Repo: `github.com/damdej/topmontaza`, grana `main`. Push na `main` odmah objavljuje sajt.
+- Hosting: **Cloudflare Pages** (besplatno, objave ne troše kredite), projekat povezan sa repoom, adresa `topmontaza.pages.dev`. Domen `topmontaza.rs` je kupljen kod Web Hosting Srbija. Registar nema uređivanje zapisa, pa su nameserveri kod registra prebačeni na Cloudflare, a DNS zapisima se upravlja u Cloudflare-u.
+- **Selidba sa Netlify-a je u toku.** Dok vlasnik ne potvrdi da je gotova, sajt je još na Netlify-u (`topmontaza.netlify.app`, nameserveri `dns1-4.p09.nsone.net`), a admin radi samo na Cloudflare Pages (`/api/admin`). Stanje po fazama je u `CLAUDE.local.md`. Kad je selidba gotova, obrisati ovu tačku i `netlify/` i `netlify.toml`.
 - Telefon firme: 060 347 33 06 (Viber, WhatsApp, Instagram `@topmontaza`).
 
 ## Struktura
@@ -17,8 +18,9 @@ js/main.js                 galerija: čita galerija.json, tabovi, strelice
 galerija.json              kategorije i slike (Kuhinje, Plakari, Montaža, Ostalo)
 slike/<kategorija>/        fotografije radova (kuhinje, plakari, montaza, ostalo); u slike/ samo og.jpg
 admin/                     index.html, admin.css, admin.js (prijava i upload sa telefona)
-netlify/functions/admin.js API za admin: login, list, blob, commit, delete
-netlify.toml               publish=".", functions="netlify/functions"
+functions/api/admin.js     Cloudflare Pages Function, adresa /api/admin: login, list, blob, commit, delete
+_headers                   zaglavlja za /admin/* (noindex, no-cache)
+netlify/, netlify.toml     stara Netlify funkcija i podešavanje, brišu se kad selidba bude gotova
 robots.txt, sitemap.xml    adresa je https://topmontaza.rs
 ```
 
@@ -28,9 +30,10 @@ Ikonice, `logo.png` i `googlefcb6c6167a1d5591.html` (Google verifikacija) moraju
 
 - `/admin` traži lozinku (`ADMIN_PASSWORD`). Funkcija vraća potpisanu sesiju (HMAC, 30 dana) koja se čuva u `localStorage` pod ključem `tm_admin`.
 - Slike se u browseru smanje na najviše 1600px (JPEG), šalju se jedna po jedna kao GitHub blob, pa se jednim commit-om upišu u `slike/<kategorija>/` i `galerija.json`. Brisanje je takođe jedan commit.
-- Funkcija piše u GitHub preko `GITHUB_TOKEN`. Ostale promenljive (opciono): `GITHUB_REPO`, `GITHUB_BRANCH`.
-- `ADMIN_PASSWORD` i `GITHUB_TOKEN` postoje samo u Netlify podešavanjima (Environment variables). Nikad ih ne upisivati u repo, repo je javan.
-- Nova slika se na sajtu pojavi tek posle Netlify deploy-a (oko minut). Admin to prikazuje kao „Objavljuje se“.
+- Funkcija piše u GitHub preko `GITHUB_TOKEN`. Ostale promenljive (opciono): `GITHUB_REPO`, `GITHUB_BRANCH`. Koristi samo Web Crypto i `fetch` (nema Node modula), jer radi u Cloudflare Workers okruženju. Izvozi jedan `onRequest` koji sam proverava da je metoda POST.
+- `ADMIN_PASSWORD` i `GITHUB_TOKEN` postoje samo u Cloudflare podešavanjima (Pages, Settings, Variables and Secrets, kao Secret). Nikad ih ne upisivati u repo, repo je javan.
+- Nova slika se na sajtu pojavi tek posle Cloudflare Pages objave (oko minut). Admin to prikazuje kao „Objavljuje se“.
+- Slike se serviraju direktno iz `slike/` (već su smanjene na 1600px), bez servisa za promenu veličine.
 
 ## Pravila
 
@@ -42,10 +45,9 @@ Ikonice, `logo.png` i `googlefcb6c6167a1d5591.html` (Google verifikacija) moraju
 
 ## Lokalni test
 
-Nema build koraka. Za brzu proveru: `python -m http.server 8765` u korenu (funkcija admin tada ne radi, pa se prijava ne može isprobati bez Netlify dev okruženja). Pun test prijave, uploada i brisanja je rađen protiv lažnog GitHub-a u memoriji, a pravi upis u repo nije probao nijedan agent dok vlasnik ne unese promenljive u Netlify.
+Nema build koraka. Za brzu proveru izgleda: `python -m http.server 8765` u korenu (funkcija admin tada ne radi). Za funkciju sa pravim Cloudflare runtime-om: iz kopije projekta (da `.wrangler/` ne uđe u repo) `npx wrangler pages dev . --binding ADMIN_PASSWORD=x GITHUB_TOKEN=y`, pa `POST http://127.0.0.1:8788/api/admin`. Pun test prijave, uploada i brisanja je rađen protiv lažnog GitHub-a u memoriji (Node skripta koja zamenjuje `fetch` ka `api.github.com`), a pravi upis u repo nije probao nijedan agent dok vlasnik ne unese promenljive u Cloudflare.
 
 ## Otvoreno
 
-- Sačekati propagaciju DNS-a za `topmontaza.rs` (do 48h), pa u Netlify-u proveriti HTTPS sertifikat.
-- U Google Search Console dodati `topmontaza.rs` kao novi property.
-- Opciono: u Netlify-u uključiti preusmeravanje `www.topmontaza.rs` na `topmontaza.rs`.
+- Završiti selidbu: Cloudflare Pages projekat, promenljive, DNS (zona `topmontaza.rs` sa TXT zapisom `google-site-verification=71PK2rBT1Z890u-0y7kGUk36ghHw7YnM8ZZwPzTGbsY`, koji ne sme da nestane), preusmeravanje `www.topmontaza.rs` na `topmontaza.rs`.
+- Google Search Console: Domain property `topmontaza.rs` je verifikovan preko tog TXT zapisa. Posle selidbe ponovo poslati `https://topmontaza.rs/sitemap.xml`.
