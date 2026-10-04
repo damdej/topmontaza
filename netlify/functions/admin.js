@@ -131,7 +131,8 @@ async function actionCommit(body) {
     if (!/^[0-9a-f]{40}$/.test(String(s.sha))) throw new HttpError(400, 'Neispravna slika.');
   });
   const naziv = String(body.kategorija || '');
-  const prefix = slug(naziv) + '-beograd-' + stamp() + '-';
+  const folder = slug(naziv);
+  const prefix = folder + '-beograd-' + stamp() + '-';
 
   const data = await commitChange('Admin: ' + slike.length + ' novih slika (' + naziv + ')', function (galerija) {
     const kat = galerija.kategorije.find(function (k) { return k.naziv === naziv; });
@@ -139,8 +140,8 @@ async function actionCommit(body) {
     const entries = [];
     const nove = slike.map(function (s, i) {
       const file = prefix + (i + 1) + '.jpg';
-      entries.push({ path: 'slike/' + file, mode: '100644', type: 'blob', sha: s.sha });
-      const item = { slika: '/slike/' + file };
+      entries.push({ path: 'slike/' + folder + '/' + file, mode: '100644', type: 'blob', sha: s.sha });
+      const item = { slika: '/slike/' + folder + '/' + file };
       const opis = String(s.opis || '').trim().slice(0, 200);
       if (opis) item.opis = opis;
       return item;
@@ -153,7 +154,7 @@ async function actionCommit(body) {
 
 async function actionDelete(body) {
   const slika = String(body.slika || '');
-  if (!/^\/slike\/[^\/\\]+$/.test(slika)) throw new HttpError(400, 'Neispravna putanja slike.');
+  if (!/^\/slike\/[a-z0-9-]+\/[^\/\\]+$/.test(slika)) throw new HttpError(400, 'Neispravna putanja slike.');
   const path = slika.slice(1);
 
   const data = await commitChange('Admin: obrisana slika ' + path, async function (galerija, base) {

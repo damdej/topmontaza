@@ -4,82 +4,777 @@
    "naziv": "Kuhinje",
    "slike": [
     {
-     "slika": "/slike/montaza-kuhinje-beograd-cele-kuhinje-1.jpg",
-     "opis": "Montaža kuhinje Beograd: cele kuhinje, slika 1"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-1.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 1"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-cele-kuhinje-2.jpg",
-     "opis": "Montaža kuhinje Beograd: cele kuhinje, slika 2"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-2.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 2"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-cele-kuhinje-3.jpg",
-     "opis": "Montaža kuhinje Beograd: cele kuhinje, slika 3"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-3.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 3"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-cele-kuhinje-4.jpg",
-     "opis": "Montaža kuhinje Beograd: cele kuhinje, slika 4"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-4.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 4"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-cele-kuhinje-5.jpg",
-     "opis": "Montaža kuhinje Beograd: cele kuhinje, slika 5"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-5.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 5"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-cele-kuhinje-6.jpg",
-     "opis": "Montaža kuhinje Beograd: cele kuhinje, slika 6"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-6.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 6"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-ugradni-aparati-1.jpg",
-     "opis": "Montaža kuhinje Beograd: ugradni aparati, slika 1"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-7.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 7"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-ugradni-aparati-2.jpg",
-     "opis": "Montaža kuhinje Beograd: ugradni aparati, slika 2"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-8.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 8"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-ugradni-aparati-3.jpg",
-     "opis": "Montaža kuhinje Beograd: ugradni aparati, slika 3"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-9.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 9"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-ugradni-aparati-4.jpg",
-     "opis": "Montaža kuhinje Beograd: ugradni aparati, slika 4"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-10.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 10"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-fioke-i-elementi-1.jpg",
-     "opis": "Montaža kuhinje Beograd: fioke i gornji elementi, slika 1"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-11.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 11"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-fioke-i-elementi-2.jpg",
-     "opis": "Montaža kuhinje Beograd: fioke i gornji elementi, slika 2"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-12.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 12"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-fioke-i-elementi-3.jpg",
-     "opis": "Montaža kuhinje Beograd: fioke i gornji elementi, slika 3"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-13.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 13"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-radna-ploca-sudopera-1.jpg",
-     "opis": "Montaža kuhinje Beograd: radna ploča i sudopera, slika 1"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-14.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 14"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-radna-ploca-sudopera-2.jpg",
-     "opis": "Montaža kuhinje Beograd: radna ploča i sudopera, slika 2"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-15.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 15"
     },
     {
-     "slika": "/slike/montaza-kuhinje-beograd-radna-ploca-sudopera-3.jpg",
-     "opis": "Montaža kuhinje Beograd: radna ploča i sudopera, slika 3"
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-16.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 16"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-17.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 17"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-18.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 18"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-19.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 19"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-20.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 20"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-21.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 21"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-22.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 22"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-23.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 23"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-24.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 24"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-25.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 25"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-26.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 26"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-27.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 27"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-28.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 28"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-29.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 29"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-30.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 30"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-31.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 31"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-32.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 32"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-33.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 33"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-34.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 34"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-35.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 35"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-36.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 36"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-37.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 37"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-38.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 38"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-39.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 39"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-40.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 40"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-41.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 41"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-42.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 42"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-43.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 43"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-44.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 44"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-45.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 45"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-46.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 46"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-47.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 47"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-48.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 48"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-49.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 49"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-50.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 50"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-51.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 51"
+    },
+    {
+     "slika": "/slike/kuhinje/kuhinje-beograd-rad-52.jpg",
+     "opis": "Montaža kuhinje Beograd, slika 52"
     }
    ]
   },
   {
    "naziv": "Plakari",
-   "slike": []
+   "slike": [
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-1.jpg",
+     "opis": "Plakari po meri Beograd, slika 1"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-2.jpg",
+     "opis": "Plakari po meri Beograd, slika 2"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-3.jpg",
+     "opis": "Plakari po meri Beograd, slika 3"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-4.jpg",
+     "opis": "Plakari po meri Beograd, slika 4"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-5.jpg",
+     "opis": "Plakari po meri Beograd, slika 5"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-6.jpg",
+     "opis": "Plakari po meri Beograd, slika 6"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-7.jpg",
+     "opis": "Plakari po meri Beograd, slika 7"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-8.jpg",
+     "opis": "Plakari po meri Beograd, slika 8"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-9.jpg",
+     "opis": "Plakari po meri Beograd, slika 9"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-10.jpg",
+     "opis": "Plakari po meri Beograd, slika 10"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-11.jpg",
+     "opis": "Plakari po meri Beograd, slika 11"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-12.jpg",
+     "opis": "Plakari po meri Beograd, slika 12"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-13.jpg",
+     "opis": "Plakari po meri Beograd, slika 13"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-14.jpg",
+     "opis": "Plakari po meri Beograd, slika 14"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-15.jpg",
+     "opis": "Plakari po meri Beograd, slika 15"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-16.jpg",
+     "opis": "Plakari po meri Beograd, slika 16"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-17.jpg",
+     "opis": "Plakari po meri Beograd, slika 17"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-18.jpg",
+     "opis": "Plakari po meri Beograd, slika 18"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-19.jpg",
+     "opis": "Plakari po meri Beograd, slika 19"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-20.jpg",
+     "opis": "Plakari po meri Beograd, slika 20"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-21.jpg",
+     "opis": "Plakari po meri Beograd, slika 21"
+    },
+    {
+     "slika": "/slike/plakari/plakari-beograd-rad-22.jpg",
+     "opis": "Plakari po meri Beograd, slika 22"
+    }
+   ]
   },
   {
    "naziv": "Montaža",
-   "slike": []
+   "slike": [
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-1.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 1"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-2.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 2"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-3.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 3"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-4.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 4"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-5.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 5"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-6.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 6"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-7.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 7"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-8.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 8"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-9.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 9"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-10.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 10"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-11.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 11"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-12.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 12"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-13.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 13"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-14.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 14"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-15.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 15"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-16.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 16"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-17.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 17"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-18.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 18"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-19.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 19"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-20.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 20"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-21.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 21"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-22.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 22"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-23.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 23"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-24.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 24"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-25.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 25"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-26.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 26"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-27.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 27"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-28.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 28"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-29.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 29"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-30.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 30"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-31.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 31"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-32.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 32"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-33.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 33"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-34.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 34"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-35.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 35"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-36.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 36"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-37.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 37"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-38.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 38"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-39.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 39"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-40.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 40"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-41.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 41"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-42.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 42"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-43.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 43"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-44.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 44"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-45.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 45"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-46.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 46"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-47.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 47"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-48.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 48"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-49.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 49"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-50.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 50"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-51.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 51"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-52.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 52"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-53.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 53"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-54.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 54"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-55.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 55"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-56.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 56"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-57.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 57"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-58.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 58"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-59.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 59"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-60.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 60"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-61.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 61"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-62.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 62"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-63.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 63"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-64.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 64"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-65.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 65"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-66.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 66"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-67.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 67"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-68.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 68"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-69.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 69"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-70.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 70"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-71.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 71"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-72.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 72"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-73.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 73"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-74.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 74"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-75.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 75"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-76.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 76"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-77.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 77"
+    },
+    {
+     "slika": "/slike/montaza/montaza-beograd-rad-78.jpg",
+     "opis": "Montaža nameštaja Beograd, slika 78"
+    }
+   ]
   },
   {
    "naziv": "Ostalo",
-   "slike": []
+   "slike": [
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-1.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 1"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-2.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 2"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-3.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 3"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-4.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 4"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-5.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 5"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-6.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 6"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-7.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 7"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-8.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 8"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-9.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 9"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-10.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 10"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-11.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 11"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-12.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 12"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-13.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 13"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-14.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 14"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-15.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 15"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-16.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 16"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-17.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 17"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-18.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 18"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-19.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 19"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-20.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 20"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-21.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 21"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-22.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 22"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-23.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 23"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-24.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 24"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-25.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 25"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-26.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 26"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-27.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 27"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-28.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 28"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-29.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 29"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-30.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 30"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-31.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 31"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-32.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 32"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-33.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 33"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-34.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 34"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-35.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 35"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-36.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 36"
+    },
+    {
+     "slika": "/slike/ostalo/ostalo-beograd-rad-37.jpg",
+     "opis": "Nameštaj po meri Beograd, slika 37"
+    }
+   ]
   }
  ]
 }
