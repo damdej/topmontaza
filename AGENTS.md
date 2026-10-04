@@ -6,7 +6,8 @@ Sajt firme za montažu nameštaja u Beogradu (kuhinje po meri, plakari po meri, 
 
 - Repo: `github.com/damdej/topmontaza`, grana `main`. Push na `main` odmah objavljuje sajt.
 - Hosting: **Cloudflare Pages** (besplatno, objave ne troše kredite), projekat povezan sa repoom, adresa `topmontaza.pages.dev`. Domen `topmontaza.rs` je kupljen kod Web Hosting Srbija. Registar nema uređivanje zapisa, pa su nameserveri kod registra prebačeni na Cloudflare, a DNS zapisima se upravlja u Cloudflare-u.
-- **Selidba sa Netlify-a je u toku.** Dok vlasnik ne potvrdi da je gotova, sajt je još na Netlify-u (`topmontaza.netlify.app`, nameserveri `dns1-4.p09.nsone.net`), a admin radi samo na Cloudflare Pages (`/api/admin`). Stanje po fazama je u `CLAUDE.local.md`. Kad je selidba gotova, obrisati ovu tačku i `netlify/` i `netlify.toml`.
+- Sajt je 4.10.2026 preseljen sa Netlify-a na Cloudflare Pages. `topmontaza.rs` je Pages custom domen, `www` se preusmerava na `topmontaza.rs` (Redirect Rule), „Always Use HTTPS“ je uključen. Nameserveri kod registra su `maleah.ns.cloudflare.com` i `nick.ns.cloudflare.com`. Stari Netlify sajt (`topmontaza.netlify.app`) je zaustavljen i služi samo kao rezerva dok ga vlasnik ne obriše.
+- Pages ne servira `.html` ekstenziju (`/googlefcb6c6167a1d5591.html` preusmerava na adresu bez ekstenzije), a nepoznate adrese vraćaju `404.html`.
 - Telefon firme: 060 347 33 06 (Viber, WhatsApp, Instagram `@topmontaza`).
 
 ## Struktura
@@ -21,7 +22,6 @@ admin/                     index.html, admin.css, admin.js (prijava i upload sa 
 functions/api/admin.js     Cloudflare Pages Function, adresa /api/admin: login, list, blob, commit, delete
 _headers                   zaglavlja za /admin/* (noindex, no-cache)
 404.html                   stranica za nepoznate adrese (Pages inače vraća početnu sa statusom 200)
-netlify/, netlify.toml     stara Netlify funkcija i podešavanje, brišu se kad selidba bude gotova
 robots.txt, sitemap.xml    adresa je https://topmontaza.rs
 ```
 
@@ -50,5 +50,5 @@ Nema build koraka. Za brzu proveru izgleda: `python -m http.server 8765` u koren
 
 ## Otvoreno
 
-- Završiti selidbu: Cloudflare Pages projekat, promenljive, DNS (zona `topmontaza.rs` sa TXT zapisom `google-site-verification=71PK2rBT1Z890u-0y7kGUk36ghHw7YnM8ZZwPzTGbsY`, koji ne sme da nestane), preusmeravanje `www.topmontaza.rs` na `topmontaza.rs`.
-- Google Search Console: Domain property `topmontaza.rs` je verifikovan preko tog TXT zapisa. Posle selidbe ponovo poslati `https://topmontaza.rs/sitemap.xml`.
+- DNS zona `topmontaza.rs` je u Cloudflare-u. TXT zapis `google-site-verification=71PK2rBT1Z890u-0y7kGUk36ghHw7YnM8ZZwPzTGbsY` ne sme da nestane (Google Search Console, Domain property).
+- Google Search Console: proveriti status sitemap-a `https://topmontaza.rs/sitemap.xml`.
