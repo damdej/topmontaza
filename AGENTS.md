@@ -20,6 +20,7 @@ slike/<kategorija>/        fotografije radova (kuhinje, plakari, montaza, ostalo
 admin/                     index.html, admin.css, admin.js (prijava i upload sa telefona)
 functions/api/admin.js     Cloudflare Pages Function, adresa /api/admin: login, list, blob, commit, delete
 _headers                   zaglavlja za /admin/* (noindex, no-cache)
+404.html                   stranica za nepoznate adrese (Pages inače vraća početnu sa statusom 200)
 netlify/, netlify.toml     stara Netlify funkcija i podešavanje, brišu se kad selidba bude gotova
 robots.txt, sitemap.xml    adresa je https://topmontaza.rs
 ```
